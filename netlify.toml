@@ -1,6 +1,7 @@
 [build]
+  base = "todo-list"
   command = "npm run build"
-  publish = "build"
+  publish = "todo-list/build"
 
 [build.environment]
   NODE_VERSION = "18.20.0"
