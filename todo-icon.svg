@@ -1,0 +1,34 @@
+<!-- SVG Todo List Icon - Save this as todo-icon.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="512" height="512" rx="80" fill="url(#grad)"/>
+  
+  <!-- Clipboard/Paper -->
+  <rect x="120" y="80" width="272" height="352" rx="20" fill="white" opacity="0.95"/>
+  
+  <!-- Checkmarks and Lines -->
+  <!-- Item 1 - Checked -->
+  <circle cx="165" cy="150" r="18" fill="#4ade80" stroke="white" stroke-width="3"/>
+  <path d="M 158 150 L 163 155 L 172 145" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line x1="200" y1="150" x2="350" y2="150" stroke="#94a3b8" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Item 2 - Checked -->
+  <circle cx="165" cy="220" r="18" fill="#4ade80" stroke="white" stroke-width="3"/>
+  <path d="M 158 220 L 163 225 L 172 215" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line x1="200" y1="220" x2="350" y2="220" stroke="#94a3b8" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Item 3 - Unchecked -->
+  <circle cx="165" cy="290" r="18" fill="none" stroke="#cbd5e1" stroke-width="3"/>
+  <line x1="200" y1="290" x2="350" y2="290" stroke="#cbd5e1" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Item 4 - Unchecked -->
+  <circle cx="165" cy="360" r="18" fill="none" stroke="#cbd5e1" stroke-width="3"/>
+  <line x1="200" y1="360" x2="300" y2="360" stroke="#cbd5e1" stroke-width="6" stroke-linecap="round"/>
+</svg>
